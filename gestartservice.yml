@@ -1,0 +1,13 @@
+server:
+  port: 7777
+eureka:  
+  client:
+    serviceUrl:
+      defaultZone: http://serverdiscovery:8761/eureka/
+logging:
+  file: logs/${spring.application.name}.log
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'INFO'
+    org.springframework.web: 'INFO'
+    com.idm.service.home: 'INFO'
