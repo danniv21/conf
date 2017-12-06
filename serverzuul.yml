@@ -1,4 +1,3 @@
-
 zuul:
   #ignoredServices: '*'
   routes:
@@ -6,7 +5,6 @@ zuul:
       path: /gestususervice/**
       serviceId: GESTUSUSERVICE
       stripPrefix: false
-      #url: http://gestususervice:9999/api/
       
 # Discovery Server Access
 eureka:
