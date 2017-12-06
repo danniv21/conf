@@ -4,7 +4,6 @@ zuul:
     gestususervice:
       path: /gestususervice/**
       serviceId: GESTUSUSERVICE
-      stripPrefix: false
       
 # Discovery Server Access
 eureka:
