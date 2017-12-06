@@ -7,7 +7,12 @@ zuul:
       serviceId: GESTUSUSERVICE
       stripPrefix: false
       #url: http://gestususervice:9999/api/
-
+    gestartservice:
+      path: /gestartservice/**
+      serviceId: GESTARTSERVICE
+      stripPrefix: false
+      #url: http://gestartservice:9999/api/
+      
 # Discovery Server Access
 eureka:
   client:
