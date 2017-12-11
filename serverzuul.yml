@@ -2,8 +2,8 @@ zuul:
   #ignoredServices: '*'
   routes:
     gestususervice:
-      path: /gestususervice/**
-      serviceId: GESTUSUSERVICE
+      path: /gestionusuarios/**
+      serviceId: GESTIONUSUARIOS
       
 # Discovery Server Access
 eureka:
