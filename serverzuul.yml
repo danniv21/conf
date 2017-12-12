@@ -3,7 +3,10 @@ zuul:
   routes:
     gestususervice:
       path: /gestionusuarios/**
-      serviceId: GESTIONUSUARIOS    
+      serviceId: GESTIONUSUARIOS
+    gestartuservice:
+      path: /gestionarticulos/**
+      serviceId: GESTIONARTICULOS 	  
 # Discovery Server Access
 eureka:
   client:
