@@ -10,3 +10,12 @@ spring:
       url: jdbc:mysql://mysql:3306/test?serverTimezone=UTC
       username: root
       password: root
+swagger2.package: pe.com.claro
+#    rabbitmq:
+#      host: 192.168.8.105
+#      port: 5672
+#      username: test
+#      password: test      
+      
+entity.manager.packagesToScan: pe.com.claro
+application.name: salesorderapi
