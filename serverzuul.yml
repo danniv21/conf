@@ -1,12 +1,9 @@
 zuul:
   #ignoredServices: '*'
   routes:
-    gestususervice:
-      path: /gestionusuarios/**
-      serviceId: GESTIONUSUARIOS
-    gestartuservice:
-      path: /gestionarticulos/**
-      serviceId: GESTIONARTICULOS 	  
+    salesorderapi:
+      path: /salesorderapi/**
+      serviceId: SALESORDERAPI 
 # Discovery Server Access
 eureka:
   client:
