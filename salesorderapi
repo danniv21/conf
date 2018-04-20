@@ -1,0 +1,12 @@
+server:
+  port: 0
+eureka:  
+  client:
+    serviceUrl:
+      defaultZone: http://serverdiscovery:8761/eureka/
+spring:
+    dataSource:
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://mysql:3306/test?serverTimezone=UTC
+      username: root
+      password: root
