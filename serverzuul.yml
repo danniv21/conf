@@ -14,3 +14,6 @@ eureka:
 
 server:
   port: 8097   # HTTP  port
+  
+security.basic.enabled=false
+
