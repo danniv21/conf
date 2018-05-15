@@ -4,7 +4,7 @@ spring:
     dataSource:
       driverClassName: com.mysql.jdbc.Driver
       url: jdbc:mysql://mysql:3306/test?serverTimezone=UTC
-      username: userapi
+      username: apiuser
       password: passw0rd
       connectionTimeout: 15
       
